@@ -1,3 +1,7 @@
+<?php
+  include_once("credentials.php");
+?>
+
 <!DOCTYPE html>
 <html class="mdc-typography">
   <head>
@@ -69,8 +73,6 @@
       </div>
     </header>
     <?php
-
-      include_once("credentials.php");
 
     	$all_issues = 'https://mischief-studios.atlassian.net/rest/api/2/search?jql=project%20%3D%20IDEAS%20ORDER%20BY%20created%20ASC';
 
